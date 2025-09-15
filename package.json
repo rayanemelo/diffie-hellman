@@ -2,9 +2,13 @@
   "name": "diffie-hellman",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js",
+    "test-bits": "node test.js"
+  },
   "author": "Rayane Melo",
   "license": "ISC",
+  "type": "module",
   "description": "",
   "dependencies": {
     "bigint-crypto-utils": "^3.3.0"
