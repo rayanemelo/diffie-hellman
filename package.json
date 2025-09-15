@@ -5,5 +5,8 @@
   "scripts": {},
   "author": "Rayane Melo",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bigint-crypto-utils": "^3.3.0"
+  }
 }
