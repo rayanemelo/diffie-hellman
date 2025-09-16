@@ -16,7 +16,7 @@ function main() {
 
   // Cifra com AES-CTR usando a chave secreta
   const chaveAES = criarChaveAES(chaveSecretaAlice);
-  const mensagemOriginal = 'Teste de mensagem secreta!!!!!';
+  const mensagemOriginal = 'Mensagem secreta da Alice e do Bob';
 
   const cifrado = cifrarAES(mensagemOriginal, chaveAES);
   const decifrado = decifrarAES(cifrado, chaveAES);
