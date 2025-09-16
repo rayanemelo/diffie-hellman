@@ -11,6 +11,7 @@
   "type": "module",
   "description": "",
   "dependencies": {
-    "bigint-crypto-utils": "^3.3.0"
+    "bigint-crypto-utils": "^3.3.0",
+    "crypto": "^1.0.1"
   }
 }

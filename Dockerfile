@@ -7,5 +7,5 @@ RUN npm install
 
 COPY . .
 
-CMD ["sh", "-c", "node index.js && echo '\n===============================\n' && node test.js"]
+CMD ["sh", "-c", "node index.js && echo '\n===============================\n' && node test-with-bits.js"]
 
